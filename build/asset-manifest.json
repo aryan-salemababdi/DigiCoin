@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4ed4910.css",
+    "main.js": "/static/js/main.290fc09b.js",
+    "static/media/nicholas-cappello-Wb63zqJ5gnE-unsplash.jpg": "/static/media/nicholas-cappello-Wb63zqJ5gnE-unsplash.7fcf01d371c7d659a148.jpg",
+    "static/media/guerrillabuzz-crypto-pr-Xw5c0O-xGII-unsplash.jpg": "/static/media/guerrillabuzz-crypto-pr-Xw5c0O-xGII-unsplash.87e67321619d01b5e6fa.jpg",
+    "static/media/jeremy-bezanger-cD5qFAlSk_E-unsplash.jpg": "/static/media/jeremy-bezanger-cD5qFAlSk_E-unsplash.d104339bc798f63236e7.jpg",
+    "static/media/app-screenshot.743295f.webp": "/static/media/app-screenshot.743295f.743295fa5d4df54645f9.webp",
+    "static/media/profit-img.24cafd2.webp": "/static/media/profit-img.24cafd2.24cafd20225e1fcf8850.webp",
+    "static/media/pngwing.com.png": "/static/media/pngwing.com.9edfd30de83ab8492410.png",
+    "static/media/why3.1ed2508.webp": "/static/media/why3.1ed2508.1ed2508acaed3cbde42e.webp",
+    "static/media/why1.fe46a70.webp": "/static/media/why1.fe46a70.fe46a70246c593a29eeb.webp",
+    "static/media/why2.76a5171.webp": "/static/media/why2.76a5171.76a51714953adb92e08a.webp",
+    "static/media/download.svg": "/static/media/download.84b829d7c9708735ad0da933609d78e0.svg",
+    "static/media/download5.webp": "/static/media/download5.108b8446377f42f2c34e.webp",
+    "static/media/download4.svg": "/static/media/download4.ee52e1b5c5a949f748bde0804eef36a2.svg",
+    "static/media/download4.webp": "/static/media/download4.390aa5cc480f3a49c774.webp",
+    "static/media/download.webp": "/static/media/download.0ef6ce7e0dd8fbe00e3e.webp",
+    "static/media/download2.webp": "/static/media/download2.1e38d1585cb744b4800a.webp",
+    "index.html": "/index.html",
+    "static/media/download3.svg": "/static/media/download3.4559916ee387eeb8e905d324f18ffe03.svg",
+    "static/media/download7.webp": "/static/media/download7.137ff8637a2f42d046df.webp",
+    "static/media/download3.webp": "/static/media/download3.53f912a5961aee1b5de1.webp",
+    "static/media/download6.webp": "/static/media/download6.10f278aa2db13c55caaf.webp",
+    "static/media/download8.webp": "/static/media/download8.a8fa74c62c01f3f0eb2a.webp",
+    "static/media/download2.svg": "/static/media/download2.8c91963df93b6288e36d384dbc655d13.svg",
+    "main.b4ed4910.css.map": "/static/css/main.b4ed4910.css.map",
+    "main.290fc09b.js.map": "/static/js/main.290fc09b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4ed4910.css",
+    "static/js/main.290fc09b.js"
+  ]
+}
