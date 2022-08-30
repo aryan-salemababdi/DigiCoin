@@ -1,0 +1,390 @@
+@import "cssvariable/variables";
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    z-index: 100000000000 !important;
+    transition: all 0.5s linear;
+}
+
+.header {
+    ul {
+        padding: 0;
+    }
+}
+
+.header {
+    .logo {
+        padding: 0px 10px;
+    }
+}
+
+.logo {
+    span {
+        color: $GlobalColor;
+    }
+}
+
+.headertwo {
+    .logo {
+        padding: 0px 10px;
+    }
+}
+
+.signin_login {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 10px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.signin {
+    border: 1px solid $GlobalColor;
+    background: $GlobalColor;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 1px 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    font-weight: bold;
+}
+
+.login {
+    border: 1px solid $DangerColor;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 1px 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: $DangerColor;
+}
+
+.headertwo {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: $BlackNormalizeShadow;
+    transition: all 0.2s linear;
+    z-index: 100000000000 !important;
+}
+
+.headertwo {
+    ul {
+        padding: 0;
+    }
+}
+
+.shoppingiconoff {
+    display: none;
+    overflow: hidden;
+}
+
+.shoppingicon {
+    position: sticky;
+    top: 60px;
+}
+
+.pageproperty {
+    span {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #fff;
+        margin-right: 20px;
+        background: $GlobalColor;
+        border-radius: 25px;
+        padding: 0 5px;
+        font-size: 0.75rem;
+        transition: all 0.2s linear;
+    }
+}
+
+.hamburger {
+    position: static;
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    right: 30px;
+    z-index: 20000000;
+    cursor: pointer;
+
+}
+
+.listcountiner {
+    a {
+        color: #fff;
+    }
+}
+
+.listcountiner {
+    a:hover {
+        color: $GlobalColor;
+    }
+}
+
+.listcountinertwo {
+    a {
+        color: black;
+    }
+}
+
+.listcountinertwo {
+    a:hover {
+        color: $GlobalColor;
+    }
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list {
+    li {
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: -15px;
+    }
+}
+
+.list {
+    li {
+        a {
+            text-decoration: none;
+            border-bottom: 0px solid $GlobalColor;
+            transition: all 0.2s linear;
+        }
+    }
+}
+
+.list {
+    li {
+        a:hover {
+            border-bottom: 3px solid $GlobalColor
+        }
+    }
+}
+
+.headertwo {
+    h1 {
+        color: black;
+    }
+}
+
+.header {
+    h1 {
+        color: #fff;
+    }
+}
+
+ul {
+    ul {
+        display: none;
+    }
+}
+
+ul {
+    li:hover>ul {
+        display: block;
+    }
+}
+
+ul {
+    hr {
+        border: 0.5px solid $GlobalColor;
+        margin: 5px;
+    }
+}
+
+.division {
+    position: absolute;
+    top: 90%;
+    border-radius: 5px;
+    border: none;
+    border-top: 4px solid $GlobalColor;
+    background-color: #fff;
+    list-style: none;
+    opacity: 1;
+    box-shadow: $BlackNormalizeShadow;
+    animation: division 0.4s linear;
+    hr{
+        background-color: $GlobalColor;
+    }
+}
+
+.division {
+    li {
+        a {
+            color: black;
+        }
+    }
+}
+
+@keyframes division {
+    0% {
+        top: 200%;
+        opacity: 0;
+    }
+
+    25% {
+        top: 175%;
+        opacity: 0.25;
+    }
+
+    50% {
+        top: 150%;
+        opacity: 0.5;
+    }
+
+    75% {
+        top: 125%;
+        opacity: 0.75;
+    }
+
+    100% {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@media (max-width:943px) {
+    .navbarsmall {
+        ul {
+            margin: 0;
+            flex-direction: column;
+            background: $GlobalColor;
+            position: fixed;
+            height: 100vh;
+            width: fit-content;
+            top: 0;
+            right: 0;
+            z-index: 15;
+            display: none;
+            transition: all 0.2s linear;
+        }
+    }
+
+    .navbarsmallopen {
+        ul {
+            margin: 0;
+            flex-direction: column;
+            background: $GlobalColor;
+            position: fixed;
+            height: 100vh;
+            width: fit-content;
+            top: 0;
+            right: 0;
+            z-index: 15;
+            span{
+                color: #fff;
+            }
+        }
+    }
+
+    .navbarsmall {
+        a:hover {
+            color: black;
+        }
+    }
+
+    .navbarsmallopen {
+        a:hover {
+            color: black;
+        }
+    }
+
+    .navbarsmall {
+        a {
+            color: #fff;
+        }
+    }
+
+    .navbarsmallopen {
+        a {
+            color: #fff;
+        }
+    }
+
+    .navbarsmall {
+        a:hover {
+            color: black;
+        }
+    }
+
+    .navbarsmallopen {
+        a:hover {
+            color: black;
+        }
+    }
+
+    .division {
+        li {
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    .divisionremove {
+        display: none;
+    }
+
+    .list li {
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+}
+.backToUp{
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin: 10px;
+    z-index: 100000000;
+    button{
+            padding: 10px;
+            border: none;
+            background: $GlobalColor;
+            border-radius: 100%;
+            cursor: pointer;
+            img{
+                transform: rotate(180deg);
+            }
+    }
+}
+.support{
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin: 10px;
+    z-index: 100000000;
+    width: fit-content ;
+    button{
+        padding: 15px;
+        border: none;
+        background: $GlobalColor;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 0.75rem;
+        font-weight: bold;
+        cursor: pointer
+    }
+}

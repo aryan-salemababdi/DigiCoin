@@ -1,0 +1,67 @@
+@import "./cssvariable/variables";
+.facilitiesText {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.container {
+    display: grid;
+    direction: ltr;
+    grid-template-columns: repeat(2, auto);
+    margin: 40px 0px;
+}
+
+.facilitiesImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        max-width: 500px;
+        max-height: 400px;
+    }
+}
+
+.descriptionFacilities {
+    direction: rtl !important;
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+
+.discCardImg {
+    border: none;
+    background: #fff;
+    box-shadow: $GlobalShadow;
+    border-radius: 100%;
+    align-items: center;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px 10px;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.disc {
+    display: flex;
+    h2{
+        margin: 20px 0px;
+    }
+    p{
+        margin: 20px 0px;
+    }
+
+}
+
+@media (max-width:847px) {
+    .container {
+        grid-template-columns: repeat(1, auto);
+    }
+    .facilitiesImg{
+        img{
+            max-width: 280px;
+            max-height: 280px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import "cssvariable/variables";
+.container{
+    @include settingCard(-30px 30px 5px 30px , 20px 0px , relative,flex, wrap,center);
+    background: #fff;
+    border-top: 10px solid $GlobalColor;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: $GlobalShadow;
+}
+.buttonStor{
+    background:$GlobalColor;
+    color: #fff;
+    border:1px solid $GlobalColor;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 100000;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.buttonStor:hover{
+    background: rgb(84, 29, 233);
+}
+input{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+}

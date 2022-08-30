@@ -1,0 +1,43 @@
+@import "./cssvariable/variables";
+
+
+.container {
+    background: #f2f3f5;
+    width: 100%;
+    margin-top: 70px;
+    padding: 10px 0px;
+    border-top: 10px solid $GlobalColor;
+}
+.whyUstext {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0px;
+    padding: 10px 0px;
+    span {
+        color: $GlobalColor;
+    }
+}
+
+.cardBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    .Easy_Practical , .safeBuy , .fastBuy {
+        text-align: center;
+        padding: 0px 40px;
+        img , h2 ,p {
+            justify-content: center;
+            padding: 10px 0px;
+        }
+    }
+}
+@media (max-width:760px) {
+    .cardBox {
+        grid-template-columns: repeat(1, auto);
+
+        .Easy_Practical , .safeBuy,.fastBuy{
+            padding: 10px 0px;
+        }
+
+    }
+}

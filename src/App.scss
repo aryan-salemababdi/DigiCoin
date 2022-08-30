@@ -1,0 +1,15 @@
+@import "components/cssvariable/variables";
+body{
+    background-color: #ffffff !important;
+    cursor: default;
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+    color: $GlobalColor;
+  }
+  ::-webkit-scrollbar-track{
+    background-color:  #fff;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-image: linear-gradient( $GlobalColor,white);
+  }

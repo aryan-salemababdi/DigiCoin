@@ -1,0 +1,13 @@
+$GlobalColor: #1a73e8;
+$DangerColor: #d64b19;
+$LightColor:  #f2f3f5;
+$GlobalShadow : rgba(26, 115, 232, 0.5) 6px 2px 16px 0px;
+$BlackNormalizeShadow : rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+@mixin settingCard($margin, $padding, $position, $display, $flexWrap, $justifyContent) {
+    margin: $margin;
+    padding: $padding;
+    position: $position;
+    display: $display;
+    flex-wrap: $flexWrap;
+    justify-content: $justifyContent;
+}

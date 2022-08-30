@@ -1,0 +1,91 @@
+@import "./cssvariable/variables";
+
+.container {
+    @include settingCard(0, 30px 0px, static, flex, wrap, space-around);
+    background: #14151a;
+}
+
+.listContainer {
+    color: #fff;
+
+    hr {
+        border: 1px solid $GlobalColor;
+        background: $GlobalColor;
+        margin: 10px 0px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 10px 0px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #00aea4;
+        transition: all 0.2s linear;
+    }
+
+    a:hover {
+        color: #fff;
+        transition: all 0.2s linear;
+    }
+
+    span {
+        color: $GlobalColor;
+        transition: all 0.2s linear;
+    }
+
+    span:hover {
+        color: #fff;
+        transition: all 0.2s linear;
+    }
+}
+
+.socialMedia {
+    color: #fff;
+
+    hr {
+        border: 1px solid $GlobalColor;
+        background: $GlobalColor;
+        margin: 10px 0px;
+    }
+
+    a {
+        img {
+            margin: 10px;
+            opacity: 0.5;
+            transition: all 0.2s linear;
+        }
+
+        img:hover {
+            opacity: 1;
+            transition: all 0.2s linear;
+        }
+    }
+}
+
+.lincenc {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(159, 159, 159);
+    align-items: center;
+}
+
+@media (max-width:700px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .listContainer {
+        margin: 10px 0px;
+    }
+
+    .socialMedia {
+        margin: 10px 0px;
+    }
+}

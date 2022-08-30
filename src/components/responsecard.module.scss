@@ -1,0 +1,55 @@
+@import "./cssvariable/variables";
+.container {
+    @include settingCard(0px, 20px, static, flex, wrap, space-between);
+    background: #666;
+
+    button {
+        padding: 5px;
+        margin: 0px 5px;
+    }
+}
+@media (max-width:760px) {
+    .container {
+        @include settingCard(0px, 20px, static, flex, wrap, center);
+
+        button {
+            margin: 20px 10px;
+        }
+    }
+}
+.textrespons {
+    color: #fff;
+}
+.buttonrespons {
+    #FrequentlyAskedQuestionsButton {
+        background: #00aea4;
+        border:none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.2s linear;
+    }
+    #FrequentlyAskedQuestionsButton:hover{
+        background: #01938c;
+        transition: all 0.2s linear;
+    }
+    #ContactSupportButton{
+        background: #fff;
+        border:none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #00aea4;
+        cursor: pointer;
+        transition: all 0.2s linear;
+    }
+    #ContactSupportButton:hover{
+        background: #00aea4;;
+        color: #fff;
+        transition: all 0.2s linear;
+    }
+}
