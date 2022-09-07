@@ -14,34 +14,16 @@ const GeneralInfo: FC = () => {
     const [numberUserActive, setNumberUserActive] = useState<number>(0)
     const [trades, setTrades] = useState<number>(0)
     const [valueTrades, setValueTrades] = useState<number>(0);
+    let counter: number = 0;
     useEffect(() => {
-        const userActive = (minimum: number, maximum: number) => {
-            for (let count: number = minimum; count <= maximum; count++) {
-                setTimeout(() => {
-                    setNumberUserActive(count)
-                }, 2000);
-            }
-        };
-        const trades = (minimum: number, maximum: number) => {
-            for (let count: number = minimum; count <= maximum; count++) {
-                setTimeout(() => {
-                    setTrades(count)
-                }, 2000);
-            }
-        };
-        const valueTrades = (minimum: number, maximum: number) => {
-            for (let count: number = minimum; count <= maximum; count++) {
-                setTimeout(() => {
-                    setValueTrades(count)
-                }, 2000);
-            }
-        };
-        userActive(0, 10);
-        trades(0, 300);
-        valueTrades(0, 250);
+        const intervalid = setInterval(() => {
+            counter += 1
+            counter <= 4 ?  setNumberUserActive(counter) :  setNumberUserActive(9);
+            counter <= 200 ?  setTrades(counter) :  setTrades(200);
+            counter <= 200 ?  setValueTrades(counter) :  setValueTrades(200);
+        },30);
+        return () => clearTimeout(intervalid)
     }, [])
-
-
     return (
         <div>
 
